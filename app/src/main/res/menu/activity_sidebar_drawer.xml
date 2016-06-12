@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+    <!--android:id="@+id/nav_switch"-->
+    <!--app:actionLayout="@layout/test"-->
+    <!--android:title="Downloaded only" />-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camara"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Brilho" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_lock_silent_mode_off"
+            android:title="Volume" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Bluetooth" />
+    </group>
+
+    <item android:title="Outros">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Ajuda" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Desconectar" />
+        </menu>
+    </item>
+
+</menu>

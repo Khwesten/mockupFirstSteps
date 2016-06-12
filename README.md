@@ -1,2 +1,2 @@
 # mockupFirstSteps
-Interactive mockup fo work in software engineering class
+Interactive mobile mockup (Android) of work in software engineering class
